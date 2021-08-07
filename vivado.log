@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Jul 27 14:11:29 2021
+# Process ID: 10440
+# Current directory: C:/Users/murtu/Documents/better_bloom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13308 C:\Users\murtu\Documents\better_bloom\better_bloom.xpr
+# Log file: C:/Users/murtu/Documents/better_bloom/vivado.log
+# Journal file: C:/Users/murtu/Documents/better_bloom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/murtu/Documents/better_bloom/better_bloom.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/murtu/Documents/better_bloom/better_bloom.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1456.566 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1661.992 ; gain = 205.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Bloom' [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:31]
+ERROR: [Synth 8-316] illegal module recursion detected [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:31]
+ERROR: [Synth 8-6156] failed synthesizing module 'Bloom' [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1735.336 ; gain = 278.770
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+2 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1735.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Bloom' [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:23]
+ERROR: [Synth 8-439] module 'hash_block' not found [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:31]
+ERROR: [Synth 8-6156] failed synthesizing module 'Bloom' [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/Bloom.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1740.289 ; gain = 4.953
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+1 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:2]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:3]
+INFO: [Synth 8-2350] module hash ignored due to previous errors [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+Failed to read verilog 'C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv'
+1 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:2]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:3]
+INFO: [Synth 8-2350] module hash ignored due to previous errors [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+Failed to read verilog 'C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv'
+1 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:2]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:3]
+INFO: [Synth 8-2350] module hash ignored due to previous errors [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+Failed to read verilog 'C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv'
+1 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Bloom
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+ERROR: [Synth 8-1031] d_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:2]
+ERROR: [Synth 8-1031] bl_size is not declared [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:3]
+INFO: [Synth 8-2350] module hash ignored due to previous errors [C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv:1]
+Failed to read verilog 'C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv'
+1 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 27 14:30:13 2021...

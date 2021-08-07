@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Aug  7 15:15:54 2021
+# Process ID: 1280
+# Current directory: C:/Users/murtu/Documents/better_bloom/better_bloom.runs/synth_1
+# Command line: vivado.exe -log Bloom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Bloom.tcl
+# Log file: C:/Users/murtu/Documents/better_bloom/better_bloom.runs/synth_1/Bloom.vds
+# Journal file: C:/Users/murtu/Documents/better_bloom/better_bloom.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Bloom.tcl -notrace
