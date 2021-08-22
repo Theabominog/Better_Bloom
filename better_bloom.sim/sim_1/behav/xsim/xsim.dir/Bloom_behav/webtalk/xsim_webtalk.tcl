@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sun Aug 22 15:33:32 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Sun Aug 22 16:01:15 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2021.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3247384" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "cad0ee91-f797-4929-9862-594c6b3ca696" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "3c1b8fe0b11e47c4845171c25f20891b" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "22" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "28" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 7 4800HS with Radeon Graphics         " -context "user_environment"
@@ -37,7 +37,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "19" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "4" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.92_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "61532_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2568726086 -regid "" -xml C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.97_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "61860_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 1367100757 -regid "" -xml C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.sim/sim_1/behav/xsim/xsim.dir/Bloom_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

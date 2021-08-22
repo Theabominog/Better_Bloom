@@ -5,12 +5,12 @@ module comparator #(parameter d_size, bl_size, hash_size) (check, bloom, clk, ha
     output logic match;
     
     logic [bl_size - 1:0] temp;
-    always @(posedge clk) begin
-        if(bloom[hash] == 1) begin
-            match = 1;
+        always @(posedge clk) begin
+            if(bloom[hash] == 1 & check == 1) begin
+                match = 1;
+            end else begin
+                match = 0;
+            end
         end
-        else begin
-            match = 0;
-        end
-    end
+
 endmodule
