@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+//comment if not top
 
 module Bloom(clk, insert, data, check, reset, match);
     parameter d_size = 32;
