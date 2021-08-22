@@ -6,10 +6,10 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv" Line 1. Module hash(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/comparator.sv" Line 1. Module comparator(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/hash_block.sv" Line 1. Module hash(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/better_bloom/better_bloom.srcs/sources_1/new/comparator.sv" Line 1. Module comparator(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.srcs/sources_1/new/hash_block.sv" Line 1. Module hash(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.srcs/sources_1/new/comparator.sv" Line 1. Module comparator(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.srcs/sources_1/new/hash_block.sv" Line 1. Module hash(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/murtu/Documents/GitHub/Better_Bloom/better_bloom.srcs/sources_1/new/comparator.sv" Line 1. Module comparator(d_size=32,bl_size=32,hash_size=5) doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.hash(d_size=32,bl_size=32,hash_s...

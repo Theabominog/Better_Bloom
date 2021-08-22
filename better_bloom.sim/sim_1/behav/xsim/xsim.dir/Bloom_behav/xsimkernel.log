@@ -1,7 +1,4 @@
-Running: xsim.dir/Bloom_behav/xsimk.exe -simmode gui -wdb Bloom_behav.wdb -simrunnum 0 -socket 57655
+Running: xsim.dir/Bloom_behav/xsimk.exe -simmode gui -wdb Bloom_behav.wdb -simrunnum 0 -socket 62930
 Design successfully loaded
-Design Loading Memory Usage: 6704 KB (Peak: 6704 KB)
+Design Loading Memory Usage: 6652 KB (Peak: 6652 KB)
 Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 7772 KB (Peak: 7772 KB)
-Simulation CPU Usage: 187 ms
